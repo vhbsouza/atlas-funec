@@ -1,6 +1,5 @@
 {
   "name": "atlas-funec",
   "app_id": "dd5a7037",
-  "v2": true,
-  "typescript": true
+  "type": "ionic-angular"
 }
