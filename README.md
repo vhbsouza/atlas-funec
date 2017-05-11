@@ -1,5 +1,7 @@
 # atlas-funec
-App demonstrativo criado durante palestra na FUNEC.
+App demonstrativo criado na palestra Construindo aplicações multiplataforma com Ionic Framework durante a 9a Semana Computacional na FUNEC.
+
+Slides: https://goo.gl/OhDPkJ
 
 ### Páginas
 
@@ -14,7 +16,7 @@ App demonstrativo criado durante palestra na FUNEC.
 
 ### Build
 
-Android: `ionic build android`
-Web (surge): `surge --domain atlas-funec.sh`
-Desktop: `npm run electron`
+- Android: `ionic build android`
+- Web (surge): `surge --domain atlas-funec.sh`
+- Desktop: `npm run electron`
 
