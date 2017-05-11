@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Atlas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>Lista de Países</ion-list-header>
+    <button ion-item *ngFor="let country of countries" (click)="openCountry(country.alpha3Code)">
+      {{country.name}}
+    </button>
+  </ion-list>
+</ion-content>
